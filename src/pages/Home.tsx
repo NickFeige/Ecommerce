@@ -6,7 +6,7 @@ const Home: React.FC = () => {
 
   return (
     <div className="main-background">
-      <h1 className="title">Grip Climbing</h1>
+      <h1 className="title"><i>Grip Climbing</i></h1>
 
       <nav className="navbar">
         <button className="button">Categories</button>

@@ -6,7 +6,7 @@
   background-color: #a0e7a0;
   padding: 0px 0;
   position: fixed;
-  top: 100px;
+  top: 55px;
   left: 0;
 }
 
@@ -53,7 +53,7 @@ body {
   
 .title {
   position: absolute;
-  top: 0;
+  top: -40px;
   left: 0;
   color: #3ace3a;
   white-space: nowrap;
