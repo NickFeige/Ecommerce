@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  background-color: #a0e7a0;
+  padding: 0px 0;
+  position: fixed;
+  top: 100px;
+  left: 0;
+}
+
+.button {
+  background-color: #a0e7a0;
+  color: white;
+  padding: 20px 200px;
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.1s ease, color 0.1s ease, border 0.1s ease;
+  outline: none;
+}
+
+.button:hover {
+  background-color: #3ace3a;
+}
+
+.button:active,
+.button:focus {
+  background-color: #d5f5d5;
+  color: #3ace3a;
+  border: 0px solid white;
+  outline: none;
+}
+:root {
+  --main-bg-color: #f5fcf5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: var(--main-bg-color); /* Optional: use as default */
+}
+
+.main-background {
+  position: relative; /* 👈 This is key */
+  background-color: var(--main-bg-color);
+  min-height: 100vh;
+  margin: 0;
+}
+  
+.title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #3ace3a;
+  white-space: nowrap;
+}
