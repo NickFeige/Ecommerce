@@ -32,9 +32,10 @@ const Home: React.FC = () => {
           </button>
           {showCategories && (
             <div className="dropdown-menu">
-              <button className="dropdown-item">Clothing</button>
-              <button className="dropdown-item">Equipment</button>
-              <button className="dropdown-item">Chalk</button>
+              <button className="dropdown-item"onClick={() => navigate("/clothing")}>Clothing</button>
+              <button className="dropdown-item" onClick={() => navigate("/equipment")}>Equipment</button>
+              <button className="dropdown-item" onClick={() => navigate("/chalk")}>Chalk</button>
+
             </div>
           )}
         </div>
