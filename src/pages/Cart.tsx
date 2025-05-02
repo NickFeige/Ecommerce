@@ -1,4 +1,5 @@
 import React from "react";
+import Navbar from "./Navbar";
 
 // Define the CartItem interface (make sure it matches your AppRoutes)
 interface CartItem {
@@ -20,6 +21,7 @@ const Cart: React.FC<CartProps> = ({ cartItems, removeItem, increaseQuantity, de
 
   return (
     <div>
+        <Navbar />
       <h2>Your Cart</h2>
       {cartItems.length === 0 ? (
         <p>Your cart is empty.</p>
